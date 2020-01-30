@@ -76,12 +76,10 @@ function do_requirements {
         libjudy-dev \
         libpcap-dev \
         libpcre3-dev \
-        libreadline6 \
-        libreadline6-dev \
-        libssl-dev \
+        libreadline-dev \
+        libssl1.0-dev \
         libtool \
         make \
-        mktemp \
         pkg-config \
         protobuf-c-compiler \
         python2.7 \
@@ -119,7 +117,7 @@ function do_requirements_1604 {
     sudo apt-get install -y --no-install-recommends \
         ca-certificates \
         g++ \
-        libboost-iostreams1.58-dev \
+        libboost-iostreams-dev \
         libprotobuf-c-dev
 }
 
